@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.object {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: dashed 2px red;
+    background-color: green;
+    
+}
+.task3 {
+    width: 600px;
+    padding: 10px 0 20px 20px;
+    
+}
+
+.first-picture {
+    float: left;
+    margin: 0 20px 7px 0;
+    width: 30%;
+}
+.second-picture {
+    float: right;
+    width: 25%;
+    height: auto;
+    margin: 20px 0 15px 15px;
+}
+.text {
+    text-align: justify;
+    font-weight: 520;
+    line-height: 1.25;
+}

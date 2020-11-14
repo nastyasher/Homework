@@ -1,0 +1,28 @@
+blockquote {
+    color:green;
+    
+}
+a[href^="https"] {
+    color:red;
+}
+ul.list > li:last-child > a {
+    background-color: green;
+}
+ul+p {
+    font-size: 26px;
+}
+div.text-box h3:first-child {
+    color:pink;
+}
+#greycol {
+    color:grey;
+}
+div:not([class])>p {
+    color:red;
+}
+div.text-box > p:nth-child(7) {
+    color:green;
+}
+.yellow {
+    color:yellow;
+}

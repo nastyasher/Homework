@@ -1,0 +1,144 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+}
+.header {
+    flex-grow:0;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding-left: 5px;
+}
+.middle-block {
+    flex-grow:1;
+    display: flex;
+    text-align: center;
+}
+.footer {
+    flex-grow:0;
+    background-color: greenyellow;
+    text-align: center;
+
+}
+.aside {
+    flex: 0 0 210px;
+}
+.left-aside {
+    background-color: pink;
+    order: -1;
+
+}
+.right-aside {
+    background-color: #8a8a8a;
+}
+.main {
+    flex-grow: 1;
+}
+.title {
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    border-radius: 1em;
+    border-style: solid;
+    border-color: gray;
+    width: calc(33.333% - 20px);
+    margin: 10px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.circle-image {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 10em;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #a8a8a8;
+    max-width: 100%;
+    vertical-align: top;
+
+}
+.button {
+
+    width: 60px;
+    height: 35px;
+    border-radius: 5em;
+    background-color: #5d6269;
+    padding: 10px 10px;
+
+}
+a {
+    text-decoration: none;
+    color:#ffffff;
+}
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.holder {
+    border: 5px black solid;
+    border-radius: 2em 2em 0 0;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.item1 {
+    padding-top: 1em;
+    background-color: red;
+    flex:2 0 50%;
+}
+.item2 {
+    padding-top: 1em;
+    background-color: blue;
+    order: 3;
+    flex:1 0 33.33%;
+}
+.item3 {
+    padding-top: 1em;
+    background-color: purple;
+    order:2;
+    flex:1 0 33.33%;
+}
+.item4 {
+    background-color: green;
+    order:4;
+    flex:1 0 33.33%;
+    padding-top: 1em;
+}
+.item5 {
+    padding-top: 1em;
+    background-color: orange;
+    order: 1;
+    flex:2 0 50%;
+
+}
