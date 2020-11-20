@@ -14,25 +14,14 @@ function initMobileNav() {
 
 function initSlick() {
 	jQuery('.slider').slick({
-    arrows: false,
-    dots: true,
+		arrows: true,
+		nextArrow: '<button type="button" class="slick-next icon-angle-right"></button>',
+		prevArrow: '<button type="button" class="slick-prev icon-angle-left"></button>',
+		dots: false,
 		infinite: true,
 		speed: 500,
-		mobileFirst: true,
-		responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 1024,
-      settings: "unslick"
-    }
-    ]
-  });
+		mobileFirst: true
+    });
 }
 
 /*
