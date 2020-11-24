@@ -347,7 +347,8 @@
 .picture:hover .overlay {
     opacity: 1;
 }
-.search-icon-container {
+
+.icon-search {
     display: flex;
     align-items: center;
     justify-content: center;
